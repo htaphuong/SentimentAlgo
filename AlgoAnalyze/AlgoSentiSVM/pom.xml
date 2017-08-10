@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>BizAnalyze</artifactId>
-        <groupId>phuonghuynh.biz.analyze</groupId>
+        <artifactId>AlgoAnalyze</artifactId>
+        <groupId>phuonghuynh.algo.analyze</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>BizSentiSVM</artifactId>
+    <artifactId>AlgoSentiSVM</artifactId>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/tw.edu.ntu.csie/libsvm -->
@@ -85,10 +85,17 @@
 
         <!-- modules -->
         <dependency>
-            <groupId>phuonghuynh.biz.analyze</groupId>
-            <artifactId>BizAnalyze</artifactId>
+            <groupId>phuonghuynh.algo.analyze</groupId>
+            <artifactId>AlgoUtils</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
+        <dependency>
+            <groupId>phuonghuynh.algo.analyze</groupId>
+            <artifactId>AlgoDataSetCreator</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>tw.edu.ntu.csie</groupId>
             <artifactId>libsvm</artifactId>

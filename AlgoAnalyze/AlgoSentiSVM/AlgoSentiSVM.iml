@@ -84,7 +84,8 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="AlgoAnalyze" />
+    <orderEntry type="module" module-name="AlgoUtils" />
+    <orderEntry type="module" module-name="AlgoDataSetCreator" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:1.3.2" level="project" />
   </component>
 </module>

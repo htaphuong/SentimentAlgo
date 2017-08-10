@@ -31,20 +31,38 @@ public class AlgoSentiSVM {
         //normal();
         allDataSet();
         //oneDataSet("0887");
+
+        /*
+        predict("test");
+
+        File resourcesDirectory = new File("src/main/resources/" + PathConfigurationSentiSVM.input);
+        String fullPath =  resourcesDirectory.getAbsolutePath();
+        System.out.println(fullPath);
+        */
     }
 
     public static void random() throws Exception {
         DataSetCreator.createDataSet();
 
-        ProcessRunner processRunner = new ProcessRunner();
-        processRunner.testTrain();
-        processRunner.testTest();
+        normal();
     }
 
     public static void normal() throws Exception {
         ProcessRunner processRunner = new ProcessRunner();
         processRunner.testTrain();
         processRunner.testTest();
+    }
+
+    public static void predict(String content) throws Exception {
+        /*#####################################################*/
+        /*
+        * This function must be called for clearing SVM Features Space for every new data set.
+        **/
+        CommentExtractor.destroySVMFeatureSpace();
+        /*#####################################################*/
+
+        ProcessRunner processRunner = new ProcessRunner();
+        processRunner.predict(content);
     }
 
     public static void allDataSet() throws Exception {
