@@ -56,8 +56,6 @@ public final class kNNClassifier {
             }
         }
 
-
-
     }
 
     private double calculateClassScore(DocumentVector docVector, DocumentClass docClass){

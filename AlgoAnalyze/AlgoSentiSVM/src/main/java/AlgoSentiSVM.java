@@ -2,6 +2,7 @@ import common.console.ConsoleOutputCapturer;
 import common.io.FileIO;
 import config.PathConfigurationRoot;
 import config.PathConfigurationSentiSVM;
+import creator.DataSetCreator;
 import org.apache.commons.io.FilenameUtils;
 import utils.CommentExtractor;
 
@@ -39,6 +40,10 @@ public class AlgoSentiSVM {
         String fullPath =  resourcesDirectory.getAbsolutePath();
         System.out.println(fullPath);
         */
+
+        /* MODIFY*/
+        //SentiSVMFilter.getSVMDetailResult();
+        /*##########################*/
     }
 
     public static void random() throws Exception {
@@ -121,6 +126,10 @@ public class AlgoSentiSVM {
             FileIO.writeln(r);
         }
         FileIO.closeWriter();
+
+        /* MODIFY*/
+        //SentiSVMFilter.getSVMDetailResult();
+        /*##########################*/
     }
 
     public static void oneDataSet(String name) throws Exception {

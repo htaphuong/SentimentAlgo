@@ -9,6 +9,7 @@ public class Document {
     private String name = null;
     private String url = null;
     private String id = null;
+    private String label = null;
     private TreeMap<String, Integer> termList = null;
 
     public Document(){
@@ -32,6 +33,10 @@ public class Document {
         this.url = url;
     }
 
+    public void setLabel(String label){
+        this.label = label;
+    }
+
     public void setListTerm(TreeMap listTerm){
         this.termList = listTerm;
     }
@@ -46,6 +51,10 @@ public class Document {
 
     public String getURL(){
         return this.url;
+    }
+
+    public String getLabel(){
+        return this.label;
     }
 
     public TreeMap<String, Integer> getTermList(){

@@ -6,6 +6,7 @@ import config.PathConfigurationRoot;
 import config.PathConfigurationSentiSVM;
 import model.*;
 import vn.hus.nlp.tokenizer.VietTokenizer;
+import wordnet.AlgoSentiWord;
 
 import java.io.*;
 import java.util.LinkedList;
@@ -116,7 +117,7 @@ public class CommentExtractor {
             mSVMFeatureSpace.setFeatureSpace(feature);
     }
 
-    public static void CommentSVMToTrainingSet(){
+    public static void CommentSVMToTrainingSet() throws IOException {
         /*
         String projectPath = System.getProperty("user.dir");
         String path = projectPath + "\\save";
@@ -133,6 +134,14 @@ public class CommentExtractor {
         for (CommentSVM commentSVM : mCommentSVMCollection.getCommentSVMList()){
             String label = String.valueOf(commentSVM.getLabelCode());
             FileIO.write(label + " ");
+
+            /*#######################*/
+            /* Get sentiment scores features */
+            double score = AlgoSentiWord.predictWithScore(commentSVM.getComment().getContent());
+            if (Double.isNaN(score))
+                score = -100;
+            FileIO.write("1:" + String.valueOf(score) + " ");
+            /*#######################*/
 
             LinkedList<TermFrequency> termList = commentSVM.getTermList();
             for (TermFrequency t : termList){
@@ -151,7 +160,7 @@ public class CommentExtractor {
         FileIO.closeWriter();
     }
 
-    public static void CommentSVMToTestingSet(){
+    public static void CommentSVMToTestingSet() throws IOException {
         /*
         String projectPath = System.getProperty("user.dir");
         String path = projectPath + "\\save";
@@ -168,6 +177,14 @@ public class CommentExtractor {
         for (CommentSVM commentSVM : mCommentSVMCollection.getCommentSVMList()){
             String label = String.valueOf(commentSVM.getLabelCode());
             FileIO.write(label + " ");
+
+            /*#######################*/
+            /* Get sentiment scores features */
+            double score = AlgoSentiWord.predictWithScore(commentSVM.getComment().getContent());
+            if (Double.isNaN(score))
+                score = -100;
+            FileIO.write("1:" + String.valueOf(score) + " ");
+            /*#######################*/
 
             LinkedList<TermFrequency> termList = commentSVM.getTermList();
             for (TermFrequency t : termList){

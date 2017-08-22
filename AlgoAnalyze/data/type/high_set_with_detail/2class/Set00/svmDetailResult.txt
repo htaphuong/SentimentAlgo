@@ -1,0 +1,10 @@
+neu-neu	6
+neu-pos	19
+neu-neg	2
+pos-neu	1
+pos-pos	39
+pos-neg	2
+neg-neu	3
+neg-pos	21
+neg-neg	7
+### p = 52.0%

@@ -1,0 +1,206 @@
+---------------------------------------------------
+002.train	002.test
+---------------------------------------------------
+Loading unigram model...OK
+Creating lexical segmenter...
+Load the lexicon automaton... OK.
+External lexicon loaded.
+Lexical segmenter created.
+Initializing tokenizer...OK
+.*
+optimization finished, #iter = 1003
+nu = 0.6219950351932882
+obj = -22806.87594779003, rho = -0.5627031283058824
+nSV = 577, nBSV = 211
+.*
+optimization finished, #iter = 1114
+nu = 0.5199677291586455
+obj = -20404.405960041724, rho = -2.5200398897814544
+nSV = 589, nBSV = 162
+.*
+optimization finished, #iter = 1123
+nu = 0.47585470809041536
+obj = -18744.398461283497, rho = 0.6682836091619537
+nSV = 584, nBSV = 163
+Total nSV = 894
+Accuracy = 62.0% (62/100) (classification)
+
+---------------------------------------------------
+003.train	003.test
+---------------------------------------------------
+.*
+optimization finished, #iter = 1021
+nu = 0.6125848863770058
+obj = -22486.69301019377, rho = -1.3189905260556058
+nSV = 576, nBSV = 204
+.*.*
+optimization finished, #iter = 1170
+nu = 0.5167781088922714
+obj = -20372.0974709011, rho = -3.2527835504505154
+nSV = 600, nBSV = 157
+.*
+optimization finished, #iter = 1091
+nu = 0.47309591172777554
+obj = -18610.34385858845, rho = 1.372050022028346
+nSV = 575, nBSV = 160
+Total nSV = 900
+Accuracy = 63.0% (63/100) (classification)
+
+---------------------------------------------------
+004.train	004.test
+---------------------------------------------------
+.*
+optimization finished, #iter = 1121
+nu = 0.4638386514788848
+obj = -18386.643573231617, rho = 0.9500079467607576
+nSV = 584, nBSV = 158
+.*
+optimization finished, #iter = 977
+nu = 0.6311371894786455
+obj = -22698.85432600705, rho = 0.8557620786405656
+nSV = 566, nBSV = 209
+.*
+optimization finished, #iter = 1141
+nu = 0.5113401702569841
+obj = -20103.486308532563, rho = 2.9363119622187823
+nSV = 592, nBSV = 159
+Total nSV = 892
+Accuracy = 65.0% (65/100) (classification)
+
+---------------------------------------------------
+005.train	005.test
+---------------------------------------------------
+.*
+optimization finished, #iter = 1016
+nu = 0.6353965443912691
+obj = -23148.531930811318, rho = 0.1591526966038632
+nSV = 575, nBSV = 211
+.*
+optimization finished, #iter = 1108
+nu = 0.5223105780295736
+obj = -20490.563364642032, rho = -2.096587690425799
+nSV = 592, nBSV = 163
+.*
+optimization finished, #iter = 1125
+nu = 0.46720351920880526
+obj = -18295.91679631306, rho = 0.47123494494914214
+nSV = 580, nBSV = 159
+Total nSV = 892
+Accuracy = 69.0% (69/100) (classification)
+
+---------------------------------------------------
+006.train	006.test
+---------------------------------------------------
+.*
+optimization finished, #iter = 1004
+nu = 0.6356521284354052
+obj = -23039.682303663478, rho = -1.227330023114247
+nSV = 568, nBSV = 215
+.*
+optimization finished, #iter = 1110
+nu = 0.5105687072760723
+obj = -20059.328673849544, rho = -1.9385680294795558
+nSV = 588, nBSV = 155
+.*
+optimization finished, #iter = 1080
+nu = 0.46870969469026774
+obj = -18601.78908490317, rho = 1.7299320068355795
+nSV = 584, nBSV = 163
+Total nSV = 889
+Accuracy = 60.0% (60/100) (classification)
+
+---------------------------------------------------
+007.train	007.test
+---------------------------------------------------
+.*
+optimization finished, #iter = 1033
+nu = 0.6264220444559652
+obj = -23126.712003172128, rho = -0.2834979791945756
+nSV = 580, nBSV = 213
+.*
+optimization finished, #iter = 1101
+nu = 0.515292721182362
+obj = -19914.585756820503, rho = -1.953869472939004
+nSV = 583, nBSV = 158
+.*
+optimization finished, #iter = 1129
+nu = 0.4670495911831495
+obj = -18334.244978753606, rho = 1.2153139204510652
+nSV = 585, nBSV = 154
+Total nSV = 893
+Accuracy = 66.0% (66/100) (classification)
+
+---------------------------------------------------
+008.train	008.test
+---------------------------------------------------
+.*
+optimization finished, #iter = 1045
+nu = 0.6164434910159003
+obj = -22298.44233591676, rho = -0.9163846735986731
+nSV = 571, nBSV = 202
+.*
+optimization finished, #iter = 1117
+nu = 0.5193075574894449
+obj = -20442.84567939115, rho = -3.037655042795962
+nSV = 598, nBSV = 165
+.*
+optimization finished, #iter = 1131
+nu = 0.46224104686099726
+obj = -18313.38310675912, rho = 0.8715878449644762
+nSV = 579, nBSV = 160
+Total nSV = 899
+Accuracy = 62.0% (62/100) (classification)
+
+---------------------------------------------------
+009.train	009.test
+---------------------------------------------------
+.*
+optimization finished, #iter = 1038
+nu = 0.602474248208363
+obj = -22146.489347136423, rho = -0.7998396199527771
+nSV = 573, nBSV = 196
+.*
+optimization finished, #iter = 1114
+nu = 0.512509089972819
+obj = -20338.75939214755, rho = -2.8178403955333238
+nSV = 595, nBSV = 160
+.*
+optimization finished, #iter = 1105
+nu = 0.4755836875086438
+obj = -18754.04053539552, rho = 0.7306933797517431
+nSV = 583, nBSV = 164
+Total nSV = 896
+Accuracy = 55.00000000000001% (55/100) (classification)
+
+---------------------------------------------------
+010.train	010.test
+---------------------------------------------------
+.*
+optimization finished, #iter = 1034
+nu = 0.6318554528094891
+obj = -23053.21237167462, rho = -0.8740153319458525
+nSV = 577, nBSV = 223
+.*
+optimization finished, #iter = 1103
+nu = 0.5227744082809666
+obj = -20111.59352673749, rho = -3.0351560064808942
+nSV = 584, nBSV = 160
+.*
+optimization finished, #iter = 1140
+nu = 0.47112727121216685
+obj = -18811.80642428853, rho = 0.7556790702538699
+nSV = 590, nBSV = 161
+Total nSV = 899
+Accuracy = 69.0% (69/100) (classification)
+
+---------------------------------------------------
+047.train	047.test
+---------------------------------------------------
+.*
+optimization finished, #iter = 1549
+nu = 0.47022466160443355
+obj = -26971.947795491247, rho = 2.7087218114260385
+nSV = 820, nBSV = 221
+Total nSV = 820
+Accuracy = 84.0% (84/100) (classification)
+

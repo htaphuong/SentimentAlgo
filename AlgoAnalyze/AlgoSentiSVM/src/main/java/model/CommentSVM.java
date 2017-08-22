@@ -55,6 +55,10 @@ public class CommentSVM {
         termList.add(t);
     }
 
+    public Comment getComment(){
+        return this.comment;
+    }
+
     public void generateTermListFromComment() {
         if (comment == null) {
             return;

@@ -1,0 +1,27 @@
+---------------------------------------------------
+047.train	047.test
+---------------------------------------------------
+Loading unigram model...OK
+Creating lexical segmenter...
+Load the lexicon automaton... OK.
+External lexicon loaded.
+Lexical segmenter created.
+Initializing tokenizer...OK
+.*
+optimization finished, #iter = 718
+nu = 0.7737843051964299
+obj = -27628.393922770192, rho = 6.445665215141348
+nSV = 579, nBSV = 320
+.*
+optimization finished, #iter = 742
+nu = 0.7801990737550125
+obj = -28856.48059725072, rho = -0.9628745828118989
+nSV = 598, nBSV = 334
+.*
+optimization finished, #iter = 797
+nu = 0.742555154042469
+obj = -28435.53523163667, rho = -8.179795886671046
+nSV = 630, nBSV = 319
+Total nSV = 905
+Accuracy = 52.0% (52/100) (classification)
+

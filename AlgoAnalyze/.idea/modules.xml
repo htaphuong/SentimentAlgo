@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/AlgoAnalyze.iml" filepath="$PROJECT_DIR$/AlgoAnalyze.iml" />
       <module fileurl="file://$PROJECT_DIR$/AlgoClassifier/AlgoClassifier.iml" filepath="$PROJECT_DIR$/AlgoClassifier/AlgoClassifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/AlgoDataSetCreator/AlgoDataSetCreator.iml" filepath="$PROJECT_DIR$/AlgoDataSetCreator/AlgoDataSetCreator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlgoExtendClassifier/AlgoExtendClassifier.iml" filepath="$PROJECT_DIR$/AlgoExtendClassifier/AlgoExtendClassifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/AlgoSentiSVM/AlgoSentiSVM.iml" filepath="$PROJECT_DIR$/AlgoSentiSVM/AlgoSentiSVM.iml" />
       <module fileurl="file://$PROJECT_DIR$/AlgoSentiWord/AlgoSentiWord.iml" filepath="$PROJECT_DIR$/AlgoSentiWord/AlgoSentiWord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlgoTrainingFilter/AlgoTrainingFilter.iml" filepath="$PROJECT_DIR$/AlgoTrainingFilter/AlgoTrainingFilter.iml" />
       <module fileurl="file://$PROJECT_DIR$/AlgoUtils/AlgoUtils.iml" filepath="$PROJECT_DIR$/AlgoUtils/AlgoUtils.iml" />
     </modules>
   </component>

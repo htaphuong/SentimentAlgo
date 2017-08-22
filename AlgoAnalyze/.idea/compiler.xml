@@ -8,8 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="AlgoClassifier" />
         <module name="AlgoDataSetCreator" />
+        <module name="AlgoExtendClassifier" />
         <module name="AlgoSentiSVM" />
         <module name="AlgoSentiWord" />
+        <module name="AlgoTrainingFilter" />
         <module name="AlgoUtils" />
         <module name="BizSentiWord" />
         <module name="BizSentSVM" />
@@ -20,8 +22,10 @@
       <module name="AlgoClassifer" target="1.5" />
       <module name="AlgoClassifier" target="1.5" />
       <module name="AlgoDataSetCreator" target="1.5" />
+      <module name="AlgoExtendClassifier" target="1.5" />
       <module name="AlgoSentiSVM" target="1.5" />
       <module name="AlgoSentiWord" target="1.5" />
+      <module name="AlgoTrainingFilter" target="1.5" />
       <module name="AlgoUtils" target="1.5" />
       <module name="BizAnalyze" target="1.5" />
       <module name="BizClassifier" target="1.5" />

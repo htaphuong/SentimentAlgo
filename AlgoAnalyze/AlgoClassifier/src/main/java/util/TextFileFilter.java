@@ -16,7 +16,6 @@ public class TextFileFilter implements FileFilter{
         this.extension = extension;
     }
 
-    @Override
     public boolean accept(File pathname) {
         if (!pathname.isFile())
             return false;
